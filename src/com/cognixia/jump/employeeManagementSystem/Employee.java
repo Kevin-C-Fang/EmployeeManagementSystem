@@ -15,7 +15,7 @@ public class Employee {
 		super();
 	}
 	
-	public Employee(String firstName, String lastName, int employeeId, LocalDate employmentDate, long salary, String department) {
+	public Employee(String firstName, String lastName, LocalDate employmentDate, long salary, String department) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
